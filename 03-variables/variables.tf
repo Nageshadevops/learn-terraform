@@ -40,3 +40,8 @@ variable "env" {}
 output "env" {
   value = var.env
 }
+
+variable "common" {}
+output "common" {
+  value = "var.common"
+}
