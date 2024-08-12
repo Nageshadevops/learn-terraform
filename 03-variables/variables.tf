@@ -43,5 +43,5 @@ output "env" {
 
 variable "common" {}
 output "common" {
-  value = "var.common"
+  value = var.common
 }
