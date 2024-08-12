@@ -29,7 +29,7 @@ variable ami {
 }
 
 variable "security_groups" {
-  default = "sg-0989be542cc7aee19"
+  default = ["sg-0989be542cc7aee19"]
 }
 
 variable "instance_type" {
