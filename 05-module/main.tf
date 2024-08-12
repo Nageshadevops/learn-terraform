@@ -1,4 +1,4 @@
-module "demo-01" {
+module "demo-1" {
   source = "./demo"
 }
 
