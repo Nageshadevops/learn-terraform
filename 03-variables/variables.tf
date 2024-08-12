@@ -12,7 +12,7 @@ variable "y_list" {
   default = [1, 2, 3]
 }
 
-output "y"{
+output "y" {
   value = var.y_list
 }
 
