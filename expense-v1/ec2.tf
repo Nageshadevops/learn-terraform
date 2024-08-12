@@ -18,14 +18,14 @@ resource "aws_instance" "backend" {
 resource "aws_instance" "mysql" {
   ami                    = var.ami
   vpc_security_group_ids = var.vpc_security_group_ids
-  instance_type           = var.instance_type
+  instance_type          = var.instance_type
   tags = {
     Name = "mysql"
   }
 }
 
 variable ami {
-  default = ami-041e2ea9402c46c32
+  default = "ami-041e2ea9402c46c32"
 }
 
 variable "vpc_security_group_ids" {
